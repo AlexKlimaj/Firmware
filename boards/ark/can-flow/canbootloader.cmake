@@ -8,6 +8,7 @@ px4_add_board(
 	TOOLCHAIN arm-none-eabi
 	ARCHITECTURE cortex-m4
 	CONSTRAINED_MEMORY
+	DEBUG_APPLICATION_INPLACE
 	DRIVERS
 		bootloaders
 )
