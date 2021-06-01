@@ -60,7 +60,7 @@
 #include <drivers/drv_watchdog.h>
 #include <lib/systemlib/crc.h>
 
-//#define DEBUG_APPLICATION_INPLACE    1 /* Never leave defined */
+#define DEBUG_APPLICATION_INPLACE    1 /* Never leave defined */
 #define DEBUG_NO_FW_UPDATE           1 /* With DEBUG_APPLICATION_INPLACE
                                         * prevents fw update
                                         */
